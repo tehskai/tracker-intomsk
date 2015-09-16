@@ -1,0 +1,376 @@
+/*HORIZONTAL TOP MENU*/
+.thmenu ul#topmenu li {
+float:left;
+height:48px;
+}
+
+.thmenu ul#topmenu {
+height:48px;
+padding-left:2px;
+background:url(../images/shab/menutop_links.png) no-repeat 0 -162px;
+margin-right:260px;
+}
+
+.thmenu ul#topmenu li a,.thmenu ul#topmenu li a strong {
+float:left;
+height:48px;
+line-height:47px;
+cursor:pointer;
+text-decoration:none!important;
+}
+
+.thmenu ul#topmenu li a {
+color:#fff;
+text-transform:uppercase;
+}
+
+.thmenu ul#topmenu li a strong {
+padding:0 14px;
+background:url(../images/shab/menutop_links.png) no-repeat 100% -108px;
+}
+
+.thmenu ul#topmenu li a:hover {
+color:#2b76b1;
+background:#d4e5f2 url(../images/shab/menutop_links.png) no-repeat 0 0;
+}
+
+.thmenu ul#topmenu li a:hover strong {
+background:url(../images/shab/menutop_links.png) no-repeat 100% -54px;
+}
+ul.sublinks {
+	position:absolute;
+	top: 0;
+	border: 1px solid #5f7c94;
+	z-index: 100;
+	background-color: #FFB83D;
+	width: 200px;
+	visibility: hidden;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.90;
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+}
+
+ul.sublinks a {
+	display: block;
+	border-top: 1px solid #fefefe;
+	border-bottom: 1px solid #bcbcbc;
+	background: #eeeeee url("../images/shab/sublink.png") no-repeat 0 -333px;
+	padding: 5px 0;
+	text-decoration: none !important;
+	color: #343434;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+ul.sublinks a b {
+	display: block;
+	padding: 0 8px;
+}
+
+ul.sublinks a:hover {
+	background: #86b4d7 url("../images/shab/sublink.png") no-repeat 0 0;
+	color: #ffffff;
+	text-decoration: underline;
+	border-top: 1px solid #1b5685;
+}
+/*HORIZONTAL FOOT MENU*/
+.footmenu ul li {
+float:left;
+height:39px;
+}
+
+.footmenu ul {
+height:39px;
+padding-left:1px;
+background:url(../images/shab/footmenu_links.png) no-repeat 0 -39px;
+margin-right:76px;
+}
+
+.footmenu li a,.footmenu li a b {
+float:left;
+height:39px;
+line-height:38px;
+cursor:pointer;
+text-decoration:none!important;
+}
+
+.footmenu li a {
+color:#fff;
+}
+
+.footmenu li a b {
+padding:0 10px;
+background:url(../images/shab/footmenu_links.png) no-repeat 100% -39px;
+}
+
+.footmenu li a:hover {
+background:#4078b9 url(../images/shab/footmenu_links.png) repeat-x 0 0;
+}
+
+.footmenu a.top-top {
+float:right;
+width:62px;
+height:25px;
+position:relative;
+background:#60a6da url(../images/shab/top_btn.png) repeat-x 0 -25px;
+top:8px;
+line-height:100px;
+overflow:hidden;
+}
+
+.footmenu a.top-top:hover {
+background:#60a6da url(../images/shab/top_btn.png) repeat-x 0 0;
+}
+
+/*===SEARCHFORM===*/
+.searchbox {
+float:right;
+width:378px;
+position:relative;
+top:13px;
+}
+
+.searchbox .sinputt {
+background:#fff url(../images/shab/searchform.png) no-repeat 0 0;
+width:199px;
+height:23px;
+overflow:hidden;
+}
+
+.searchbox .sinputt div {
+padding:4px 0 0 5px;
+}
+
+.searchbox .sinputt input {
+width:188px;
+padding:0;
+background:none;
+border:none;
+color:#7e9467;
+font-size:1.1em;
+font-weight:bold;
+}
+
+.searchbox .submit {
+width:30px;
+position:absolute;
+right:5px;
+top:-4px;
+}
+
+.searchbox .btn {
+width:30px;
+height:32px;
+}
+
+.searchbox .btn {
+background:#aad28d url(../images/shab/searchform.png) no-repeat -200px 0;
+}
+
+.searchbox .btn:hover {
+background:#c5e7ba url(../images/shab/searchform.png) no-repeat -230px 0;
+}
+
+/*HOMEBTN*/
+.homebtn img {
+width:16px;
+height:16px;
+background:url(../images/shab/homebtn.png) no-repeat 0 0;
+margin:0 2px;
+}
+
+.hbmap img {
+background-position:-34px 3px;
+}
+
+.hbmap:hover img {
+background-position:-34px -19px;
+}
+
+.hbfeed img {
+background-position:-54px 3px;
+}
+
+.hbfeed:hover img {
+background-position:-54px -19px;
+}
+
+.hbrules img {
+background-position:-16px 3px;
+}
+
+.hbrules:hover img {
+background-position:-16px -19px;
+}
+
+.hbhome img {
+background-position:3px 3px;
+}
+
+.hbhome:hover img {
+background-position:3px -19px;
+}
+
+/*CATEGORY MENU*/
+.catinmenu ul {
+height:43px;
+}
+
+.catinmenu ul li {
+float:left;
+width:16.5%;
+}
+
+.catinmenu a {
+width:120px;
+height:43px;
+display:block;
+background:url(../images/shab/headmenu_links.png) no-repeat 0 -31px;
+text-decoration:none!important;
+line-height:41px;
+}
+
+.catinmenu a strong {
+display:block;
+cursor:pointer;
+padding-left:50px;
+}
+
+.catinmenu .cm_home a {
+background-position:0 -75px;
+}
+
+.catinmenu .cm_home a:hover {
+background-position:0 -31px;
+}
+
+.catinmenu .cm_soft a {
+background-position:-121px -75px;
+}
+
+.catinmenu .cm_soft a:hover {
+background-position:-121px -31px;
+}
+
+.catinmenu .cm_tv a {
+background-position:-242px -75px;
+}
+
+.catinmenu .cm_tv a:hover {
+background-position:-242px -31px;
+}
+
+.catinmenu .cm_paint a {
+background-position:-363px -75px;
+}
+
+.catinmenu .cm_paint a:hover {
+background-position:-363px -31px;
+}
+
+.catinmenu .cm_book a {
+background-position:-484px -75px;
+}
+
+.catinmenu .cm_book a:hover {
+background-position:-484px -31px;
+}
+
+.catinmenu .cm_other a {
+background-position:-605px -75px;
+}
+
+.catinmenu .cm_other a:hover {
+background-position:-605px -31px;
+}
+
+/*LOGIN*/
+.loginbox {
+float:left;
+width:215px;
+padding-top:8px;
+}
+
+.loginbox a.lb_login,.loginbox a.lb_reg,.loginbox a.lb_ctrl {
+height:30px;
+float:left;
+text-align:center;
+line-height:27px;
+text-transform:uppercase;
+text-decoration:none!important;
+}
+
+.loginbox a.lb_login {
+width:63px;
+background:#fff url(../images/shab/headmenu_links.png) no-repeat 0 0;
+color:#658dac;
+}
+
+.loginbox a.lb_login:hover {
+background:#fff url(../images/shab/headmenu_links.png) no-repeat -143px 0;
+}
+
+.loginbox a.lb_reg {
+width:79px;
+background:#616161 url(../images/shab/headmenu_links.png) no-repeat -64px 0;
+color:#fff;
+}
+
+.loginbox a.lb_reg:hover {
+background:#8e8e8e url(../images/shab/headmenu_links.png) no-repeat -207px 0;
+}
+
+.loginbox a.lb_ctrl {
+width:115px;
+background:#fff url(../images/shab/headmenu_links.png) no-repeat -287px 0;
+color:#658dac;
+}
+
+.loginbox a.lb_ctrl:hover {
+background:#fff url(../images/shab/headmenu_links.png) no-repeat -402px 0;
+}
+
+/*-----LOGIN MENU-----*/
+.loginwindow {
+position:absolute;
+width:320px;
+left:38%;
+top:100px;
+border:4px solid #363636;
+display:none;
+z-index:10;
+overflow:hidden;
+background:#7e7e7e url(../images/shab/login_logo.png) no-repeat 54% 0;
+color:#fff;
+padding:75px 10px 10px;
+}
+
+.loginwindow a {
+color:#c5e3fa;
+}
+
+.ftext {
+width:295px;
+background-color:#fff;
+border:1px solid #474747;
+color:#126abc;
+padding:2px;
+font-size:17px;
+}
+
+.lgpbtn {
+font-size:17px;
+}
+
+.lgavatar {
+float:left;
+width:110px;
+overflow:hidden;
+}
+
+.lginfo {
+margin-left:115px;
+border-left:1px solid #474747;
+padding-left:15px;
+}

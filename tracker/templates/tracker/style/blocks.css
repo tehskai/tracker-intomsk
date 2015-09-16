@@ -1,0 +1,171 @@
+/*leftside*/
+.leftside .block {
+width:268px;
+overflow:hidden;
+margin-bottom:8px;
+}
+
+.leftside .block .dcont {
+width:242px;
+padding-bottom:13px;
+margin:0 13px;
+padding-top:11px;
+overflow:hidden;
+}
+
+.leftside .block h3.dtitle {
+font-size:17px;
+font-weight:normal;
+}
+
+/*type 1*/
+.leftside .btype1 {
+background:#9ca7ae url(../images/shab/block_t1.png) no-repeat 100% 0;
+}
+
+.leftside .btype1 h3.dtitle {
+padding-left:8px;
+color:#fff;
+padding-bottom:10px;
+}
+
+.leftside .btype1 .dbtm {
+background:url(../images/shab/block_t1.png) no-repeat 0 100%;
+}
+
+.leftside .btype1 .dcont {
+padding-top:12px;
+margin:0 5px;
+width:258px;
+padding-bottom:3px;
+}
+
+/*Õ¿¬»√¿÷»ﬂ –¿«ƒ≈ÀŒ¬*/
+.leftside .bvnav ul li {
+margin-bottom:2px;
+}
+
+.leftside .bvnav li a,.leftside .bvnav li a b {
+display:block;
+cursor:pointer;
+text-decoration:none!important;
+}
+
+.leftside .bvnav li a {
+background:#95a0a7 url(../images/shab/leftnavigation.png) no-repeat 0 0;
+width:258px;
+height:30px;
+font-size:1.1em;
+color:#fff;
+line-height:29px;
+}
+
+.leftside .bvnav li a:hover {
+background:#7bab59 url(../images/shab/leftnavigation.png) no-repeat 0 100%;
+}
+
+.leftside .bvnav li a b {
+padding:0 0 0 9px;
+}
+
+/*type 2*/
+.leftside .btype2 {
+background:#486881 url(../images/shab/block_t2.png) no-repeat 100% 100%;
+color:#a7c0ce;
+}
+
+.leftside .btype2 a {
+color:#fff;
+}
+
+.leftside .btype2 h3.dtitle {
+padding:11px 0 11px 13px;
+color:#fff;
+}
+
+.leftside .btype2 .dtop {
+background:#324d61 url(../images/shab/block_t2.png) no-repeat 0 0;
+}
+
+/*type 3*/
+.leftside .btype3 {
+background:#fff url(../images/shab/block_t3.png) no-repeat 0 0;
+}
+
+.leftside .btype3 h3.dtitle {
+color:#486881;
+padding-bottom:10px;
+}
+
+.leftside .btype3 .dbtm {
+background:url(../images/shab/block_t3.png) no-repeat 100% 100%;
+}
+
+.bvote p {
+background-color:#f7f7f7;
+border:1px solid #eaeaea;
+color:#486881;
+padding:5px 8px;
+}
+
+.bvote .vbuttons {
+text-align:center;
+}
+
+/*type 4*/
+.leftside .btype4 {
+background:#2b3f4a url(../images/shab/block_t4.png) no-repeat 100% 100%;
+color:#a7c0ce;
+}
+
+.leftside .btype4 a {
+color:#fff;
+}
+
+.leftside .btype4 h3.dtitle {
+padding:11px 0 11px 13px;
+color:#fff;
+}
+
+.leftside .btype4 .dtop {
+background:#1e303b url(../images/shab/block_t4.png) no-repeat 0 0;
+}
+
+/*FOOTBOX*/
+.footbox .block {
+float:left;
+width:25%;
+overflow:hidden;
+color:#a7c0ce;
+}
+
+.footbox .block a {
+color:#fff;
+}
+
+.footbox .block h3.dtitle {
+font-size:17px;
+font-weight:normal;
+margin-bottom:15px;
+color:#fff;
+}
+
+.footbox .block .dcont {
+margin:0 19px;
+}
+
+/*friends*/
+.bfriends .dcont {
+font-size:.9em;
+}
+
+.bfriends li a {
+display:block;
+text-indent:8px;
+background:url(../images/shab/arrow_fbox.png) no-repeat 0 60%;
+}
+
+/*bcalendar*/
+.footbox .bcalendar {
+color:#fff;
+}

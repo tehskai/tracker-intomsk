@@ -1,0 +1,19 @@
+<html>
+<body>
+<div style=" position: absolute; top: 5px; right: 60px; z-index:500;">
+	<form id="quick-search" action="" method="post" onsubmit="
+		$(this).attr('action', $('#search-action').val());
+		var txt=$('#search-text').val(); return !(txt=='поиск...' || !txt);
+	">
+		<input type="hidden" name="max" value="1" />
+		<input type="hidden" name="to" value="1" />
+		<input id="search-text" type="text" name="nm" onfocus="if(this.value=='поиск...') this.value='';" onblur="if(this.value=='') this.value='поиск...';" value="поиск..." class="hint" style="width: 120px;" />
+		<select id="search-action">
+			<option value="tracker.php#results" selected="selected"> по трекеру </option>
+			<option value="search.php"> по форуму </option>
+					</select>
+		<input type="submit" class="med bold" value="&raquo;" style="width: 30px;" />
+	</form>
+</div>
+</body>
+</html>

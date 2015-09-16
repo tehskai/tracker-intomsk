@@ -1,0 +1,1 @@
+<--! <a href="{LINK_TO}"><img src="{LINK_IMG}" border="0" /></a> -->

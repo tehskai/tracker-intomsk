@@ -1,0 +1,22 @@
+<table class="user_profile bordered w100" cellpadding="0" border="1">
+<tr>
+	<th colspan="5" class="thHead">Ваши инвайты</th>
+</tr>
+
+<tr>
+	<td class="catTitle">Дата выдачи</td>
+	<td class="catTitle">Код инвайта</td>
+	<td class="catTitle">Активный</td>
+	<td class="catTitle">Привлеченный пользователь</td>
+	<td class="catTitle">Дата активации</td>
+</tr>
+<!-- BEGIN invite_row -->
+	<tr>
+	  <td class="row1" align="center">{invite_row.GENERATION_DATE}</td>
+	  <td class="row2" align="center">{invite_row.INVITE_CODE}</td>
+	  <td class="row1" align="center">{invite_row.ACTIVE}</td>
+	  <td class="row1" align="center">{invite_row.NEW_USER}</td>
+	  <td class="row1" align="center">{invite_row.ACTIVATION_DATE}</td>
+	</tr>
+<!-- END invite_row -->
+</table>

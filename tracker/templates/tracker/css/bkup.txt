@@ -1,0 +1,2 @@
+<div id="hit"><img src="templates/default/images/757.png">&nbsp;<a href="{torhits.URL}">{torhits.IMAGES}</a>
+</div>

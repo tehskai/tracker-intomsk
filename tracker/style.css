@@ -1,0 +1,51 @@
+body{
+background:#595959;
+}
+#hr{
+background: url("images/lp/hr.png") no-repeat center;
+}
+.table{
+border:0px;
+}
+#bg 
+{
+background: url("images/lp/login_panel.png") no-repeat center center;
+width:100%;
+height:100%;
+}
+#text
+{
+font-family: arial;
+color:#6d6d6d;
+}
+.username
+{
+background: url("images/lp/input.png") no-repeat;
+width:257px;
+height:47px;
+padding: 0 0 0 10px;
+border:0px;
+color:#666666;
+font-size:14pt;
+font-family: arial;
+}
+.send{
+background: url("images/lp/l_button.png") no-repeat;
+border:0px;
+width:119px;
+height:45px;
+}
+.clear{
+background: url("images/lp/c_button.png") no-repeat;
+border:0px;
+width:119px;
+height:45px;
+}
+#text a {
+color:#9d9d9d;
+text-decoration:none;
+}
+#text a:hover {
+color:#4d4d4d;
+}
+.warnColor1  { color: #993300; }
